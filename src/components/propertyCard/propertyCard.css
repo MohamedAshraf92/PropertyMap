@@ -1,0 +1,48 @@
+.property-card {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(197, 197, 197);
+    background-color: rgb(212, 212, 212);
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px rgb(177, 177, 177);
+}
+
+.property-photo {
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.property-photo img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.property-dateil {
+    width: 69%;
+    position: relative;
+}
+
+.property-dateil h3 {
+    margin-top: 2px;
+    margin-bottom: 6px;
+}
+
+.property-dateil h4 {
+    margin-top: 0;
+    font-weight: normal;
+}
+
+.star-icon {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 25px;
+    color: lightslategrey;
+}

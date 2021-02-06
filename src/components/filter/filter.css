@@ -1,0 +1,29 @@
+.filter {
+    width: 25%;
+}
+
+.filter-block {
+    background-color: lightsteelblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.filter-block h3 {
+    margin: 5px;
+}
+
+.filter-block select {
+    width: 60%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+}
+
+.filter-icon {
+    font-size: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+}

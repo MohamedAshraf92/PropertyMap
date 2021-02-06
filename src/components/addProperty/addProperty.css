@@ -1,0 +1,62 @@
+.add-new {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.add-new p {
+    font-size: larger;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid gray;
+}
+
+.form-row label {
+    font-size: x-large;
+    text-align: center;
+}
+
+.form-row input {
+    height: 40px;
+    border-radius: 8px;
+    width: 40%;
+    background-color: rgb(216, 216, 216);
+    border: none;
+}
+
+.form-row input:focus {
+    outline: none;
+    
+}
+
+.submit {
+    width: 50%;
+    height: 50px;
+    margin: 20px 25%;
+    font-size: x-large;
+    font-weight: bold;
+    background-color: #191919;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.submit:hover {
+    background-color: rgb(29, 29, 88);
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+/* .modal {
+
+} */
+
