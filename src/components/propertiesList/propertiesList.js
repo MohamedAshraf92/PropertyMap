@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import './propertiesList.css'
 import axios from '../../axios'
 import PropertyCard from '../propertyCard/propertyCard'
+import Spinner from '../spinner/spinner'
 
 const PropertiesList = (props) => {
 
@@ -29,11 +30,17 @@ const PropertiesList = (props) => {
         )
     })
 
-    return (
-        <div className="properties-list">
-            {cards}
-        </div>
-    )
+    if (properties.length === 0) {
+        return (
+            <Spinner />
+        )
+    } else {
+        return (
+            <div className="properties-list">
+                {cards}
+            </div>
+        )
+    }
 }
 
 export default PropertiesList
